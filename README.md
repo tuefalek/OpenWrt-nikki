@@ -28,7 +28,7 @@ Transparent Proxy with Mihomo on OpenWrt.
 
 ```shell
 # only needs to be run once
-wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/feed.sh | ash
+wget -O - https://github.com/tuefalek/OpenWrt-nikki/raw/refs/heads/main/feed.sh | ash
 ```
 
 2. Install
