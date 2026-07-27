@@ -34,15 +34,15 @@ wget -O - https://github.com/tuefalek/OpenWrt-nikki/raw/refs/heads/main/feed.sh 
 2. Install
 
 ```shell
-# you can install from shell or `Software` menu in LuCI
-# for opkg
+# Для Openwrt 24
 opkg install nikki
 opkg install luci-app-nikki
 opkg install luci-i18n-nikki-zh-cn
-# for apk
+
+# Для OpenWRT 25+
 apk add nikki
 apk add luci-app-nikki
-apk add luci-i18n-nikki-zh-cn
+apk add luci-i18n-nikki-ru
 ```
 
 ### B. Install From Release
