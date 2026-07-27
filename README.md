@@ -37,7 +37,7 @@ wget -O - https://github.com/tuefalek/OpenWrt-nikki/raw/refs/heads/main/feed.sh 
 # Для Openwrt 24
 opkg install nikki
 opkg install luci-app-nikki
-opkg install luci-i18n-nikki-zh-cn
+opkg install luci-i18n-nikki-ru
 
 # Для OpenWRT 25+
 apk add nikki
