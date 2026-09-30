@@ -31,7 +31,7 @@ case "$DISTRIB_RELEASE" in
 esac
 
 # feed url
-repository_url="https://nikki.pigfarm.shop"
+repository_url="https://nikki.three-pigs.site"
 feed_url="$repository_url/$branch/$arch/nikki"
 
 if [ -x "/bin/opkg" ]; then
